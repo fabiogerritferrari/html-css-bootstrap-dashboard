@@ -43,18 +43,20 @@
                 </div>
             </nav>
         </div>
-        <div class="row p-3">
-            <div class="col-6">
-                <h1 class="text-dark">Catalogo Libri</h1>
-            </div>
-            <div class="col-6 d-flex justify-content-end"><button type="button" class="btn btn-primary btn-lg">Large
-                    button</button></div>
-        </div>
+
     </header>
 
     <main class="container">
         <div class="row">
             <section class="col-12 col-lg-8">
+                <div class="row p-3">
+                    <div class="col-6">
+                        <h1 class="text-dark">Catalogo Libri</h1>
+                    </div>
+                    <div class="col-6 d-flex justify-content-end"><button type="button"
+                            class="btn btn-primary btn-lg">Large
+                            button</button></div>
+                </div>
                 <table class="table table-striped">
                     <thead>
                         <tr>
@@ -200,34 +202,87 @@
                     </tbody>
                 </table>
             </section>
-            <section class="card col-12 col-lg-4 p-3">
-                <div class="card-header">
-                    Featured
+            <section class="col-12 col-lg-4 mt-3">
+                <div class="row d-flex flex-lg-column gap-2">
+                    <div class="card col-12 px-0">
+                        <div class="card-header">
+                            <h1 class="fs-2">Todo</h1>
+                        </div>
+                        <ul class="list-group p-3">
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
+                                <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
+                                <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti
+                                    scaduti</label>
+                            </li>
+                            <li class="list-group-item">
+                                <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
+                                <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card col-12 px-0">
+                        <div class="card-header">
+                            <h1 class="fs-2">F.A.Q.</h1>
+                        </div>
+                        <ul class="list-group list-group-flush p-3">
+                            <li class="list-group-item px-0">
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Come aggiungere un nuovo libro
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li><a class="dropdown-item active" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list-group-item px-0">
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Come posso accedere all'anagrafica utenti?
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li><a class="dropdown-item active" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="list-group-item px-0">
+                                <div class="dropdown">
+                                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        Posso usare questa dashboard da mobile?
+                                    </button>
+                                    <ul class="dropdown-menu dropdown-menu">
+                                        <li><a class="dropdown-item active" href="#">Action</a></li>
+                                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                        <li>
+                                            <hr class="dropdown-divider">
+                                        </li>
+                                        <li><a class="dropdown-item" href="#">Separated link</a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <ul class="list-group">
-                    <li class="list-group-item">
-                        <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-                        <label class="form-check-label" for="firstCheckbox">Chiamare segreteria</label>
-                    </li>
-                    <li class="list-group-item">
-                        <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-                        <label class="form-check-label" for="secondCheckbox">Mandare avvisi prestiti scaduti</label>
-                    </li>
-                    <li class="list-group-item">
-                        <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-                        <label class="form-check-label" for="thirdCheckbox">Ordinare nuovi libri</label>
-                    </li>
-                </ul>
-            </section>
-            <section class="card col-12 col-lg-4 p-3">
-                <div class="card-header">
-                    Featured
-                </div>
-                <ul class="list-group list-group-flush">
-                    <li class="list-group-item">An item</li>
-                    <li class="list-group-item">A second item</li>
-                    <li class="list-group-item">A third item</li>
-                </ul>
             </section>
         </div>
     </main>
