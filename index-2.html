@@ -50,22 +50,24 @@
                 <h1>Nuovo libro</h1>
             </section>
         </div>
-        <section class="row mt">
-            <div class="col-6">
-                <label for="nomeautore" class="form-label fw-bold">Nome Autore</label>
-                <input type="text" id="nomeautore" class="form-control" placeholder="inserisci il nome dell'Autore">
-            </div>
-            <div class="col-6">
-                <label for="CognomeAutore" class="form-label fw-bold">Cognome Autore</label>
-                <input type="text" id="CognomeAutore" class="form-control" placeholder="inserisci il cognome">
-            </div>
-            <div class="col-12 my-3">
-                <label for="TitoloLibro" class="form-label fw-bold">Titolo</label>
-                <input type="text" id="TitoloLibro" class="form-control" placeholder="Inserisci il titolo del libro">
-                <div id="titoloHelpBlock" class="form-text">
-                    Titolo versione italiana
+        <form action="">
+
+            <section class="row mt">
+                <div class="col-6">
+                    <label for="nomeautore" class="form-label fw-bold">Nome Autore</label>
+                    <input type="text" id="nomeautore" class="form-control" placeholder="inserisci il nome dell'Autore">
                 </div>
-            </div>
+                <div class="col-6">
+                    <label for="CognomeAutore" class="form-label fw-bold">Cognome Autore</label>
+                    <input type="text" id="CognomeAutore" class="form-control" placeholder="inserisci il cognome">
+                </div>
+                <div class="col-12 my-3">
+                    <label for="TitoloLibro" class="form-label fw-bold">Titolo</label>
+                    <input type="text" id="TitoloLibro" class="form-control" placeholder="Inserisci il titolo del libro">
+                    <div id="titoloHelpBlock" class="form-text">
+                        Titolo versione italiana
+                    </div>
+                </div>
                 <div class="col-12 col-lg-4">
                     <label for="GenereLibro" class="form-label fw-bold">Genere</label>
                     <select class="form-select" id="GenereLibro">
@@ -88,20 +90,22 @@
                 <hr class="mt-5 mb-3">
                 <div class="col-12">
                     <label for="Note" class="fw-bold">Note</label>
-                    <textarea name="Note" id="Note" placeholder="Inserisci eventuali note sul libro" class="form-control" row="10"></textarea>
+                    <textarea name="Note" id="Note" placeholder="Inserisci eventuali note sul libro" class="form-control"
+                    row="10"></textarea>
                 </div>
                 <div class="form-check mt-3">
                     <input class="form-check-input" type="checkbox" value="" id="Digitale">
-                <label class="form-check-label fw-bold" for="Digitale">
-                    Disponibile anche in digitale
-                </label>
-            </div>
-            <div class="col-4 col-lg-2 mt-3">    
-                <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
-            </div>
-        </section>
-    </main>
-
-</body>
-
-</html>
+                    <label class="form-check-label fw-bold" for="Digitale">
+                        Disponibile anche in digitale
+                    </label>
+                </div>
+                <div class="col-4 col-lg-2 mt-3">
+                    <button type="submit" class="btn btn-primary">Aggiungi Libro</button>
+                </div>
+            </section>
+        </form>
+        </main>
+        
+    </body>
+    
+    </html>
